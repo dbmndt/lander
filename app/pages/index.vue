@@ -9,17 +9,31 @@
 			<div class="cards-grid">
 				<article class="member-card">
 					<div class="avatar-wrapper">
-						<img src="/shawn.png" alt="Shawn"
-							class="avatar" />
+						<img src="/team/shawn.png" alt="Shawn" class="avatar" />
 					</div>
 					<h2 class="member-name">Shawn</h2>
-					<p class="member-roles">Design, Code, Live Event Production</p>
-					<a href="shawn.dbmndt.com" class="member-link">Visit Site →</a>
+					<p class="member-roles">
+						Design, Code, Live Event Production
+					</p>
+					<a href="shawn.dbmndt.com" class="member-link"
+						>Visit Site →</a
+					>
 					<a href="mailto:shawn@dbmndt.com" class="member-email">
-						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-							stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="20"
+							height="20"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
 							<rect width="20" height="16" x="2" y="4" rx="2" />
-							<path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+							<path
+								d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
+							/>
 						</svg>
 						Email
 					</a>
@@ -31,14 +45,14 @@
 
 <script>
 const members = [
-    {
-        name: 'Shawn',
-        roles: 'Design, Code, Live Event Production',
-        avatar: 'https://www.figma.com/api/mcp/asset/638d1f56-82d7-457e-925c-de05e304358d',
-        website: 'shawn.dbmndt.com',
-        email: 'shawn@dbmndt.com'
-    }
-]
+	{
+		name: "Shawn",
+		roles: "Design, Code, Live Event Production",
+		avatar: "https://www.figma.com/api/mcp/asset/638d1f56-82d7-457e-925c-de05e304358d",
+		website: "shawn.dbmndt.com",
+		email: "shawn@dbmndt.com",
+	},
+];
 </script>
 
 <style></style>
@@ -49,7 +63,9 @@ const members = [
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	background: linear-gradient(0deg, var(--purple-accent) 0%, transparent 100%), #1A202B;
+	background:
+		linear-gradient(0deg, var(--purple-accent) 0%, transparent 100%),
+		#1a202b;
 }
 
 /* Hero */
@@ -112,13 +128,18 @@ const members = [
 	justify-content: center;
 	gap: 10px;
 	overflow: hidden;
-	transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+	transition:
+		transform 0.25s ease,
+		box-shadow 0.25s ease,
+		border-color 0.25s ease;
 	cursor: default;
 }
 
 .member-card:hover {
 	transform: translateY(-4px);
-	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(108, 148, 104, 0.4);
+	box-shadow:
+		0 20px 40px rgba(0, 0, 0, 0.4),
+		0 0 0 1px rgba(108, 148, 104, 0.4);
 }
 
 /* Avatar */
